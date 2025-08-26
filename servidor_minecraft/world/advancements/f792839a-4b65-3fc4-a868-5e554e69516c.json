@@ -4306,6 +4306,12 @@
     },
     "done": true
   },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-08-26 02:04:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-08-26 02:06:00 +0000"
@@ -4318,12 +4324,6 @@
     },
     "done": true
   },
-  "lootr:social": {
-    "criteria": {
-      "opened_chest": "2025-08-26 02:06:50 +0000"
-    },
-    "done": false
-  },
   "farmersdelight:recipes/food/pie_crust": {
     "criteria": {
       "has_wheat": "2025-08-26 02:06:00 +0000"
@@ -4333,12 +4333,6 @@
   "vampiresdelight:recipes/food/hardtack": {
     "criteria": {
       "has_wheat": "2025-08-26 02:06:00 +0000"
-    },
-    "done": true
-  },
-  "lootr:1chest": {
-    "criteria": {
-      "opened_chest": "2025-08-26 02:06:50 +0000"
     },
     "done": true
   },
@@ -4360,12 +4354,6 @@
     },
     "done": true
   },
-  "lootr:root": {
-    "criteria": {
-      "always_true": "2025-08-26 02:04:58 +0000"
-    },
-    "done": true
-  },
   "vampiresdelight:recipes/cooking/dandelion_beer_bottle": {
     "criteria": {
       "has_any_ingredient": "2025-08-26 02:06:00 +0000"
@@ -4373,6 +4361,12 @@
     "done": true
   },
   "refurbished_furniture:recipes/misc/constructing/door_mat": {
+    "criteria": {
+      "has_wheat": "2025-08-26 02:06:00 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/straw_hat": {
     "criteria": {
       "has_wheat": "2025-08-26 02:06:00 +0000"
     },
@@ -4390,9 +4384,87 @@
     },
     "done": true
   },
-  "vinery:recipes/straw_hat": {
+  "lootr:social": {
     "criteria": {
-      "has_wheat": "2025-08-26 02:06:00 +0000"
+      "opened_chest": "2025-08-26 02:06:50 +0000"
+    },
+    "done": false
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-08-26 02:06:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-08-26 02:10:47 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dismantledto_bones": {
+    "criteria": {
+      "dismantledto_bones_0": "2025-08-26 02:26:30 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_reinforced_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 02:10:17 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_metallurgy": {
+    "criteria": {
+      "dark_metallurgy_0": "2025-08-26 02:13:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-08-26 02:10:17 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_reinforced_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 02:10:17 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:pieceof_chaos": {
+    "criteria": {
+      "pieceof_chaos_0": "2025-08-26 02:13:36 +0000"
+    },
+    "done": true
+  },
+  "beautify:botanist_workbench": {
+    "criteria": {
+      "requirement": "2025-08-26 02:24:32 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_destructor_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 02:10:17 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-08-26 02:15:16 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 02:10:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-08-26 02:10:17 +0000"
     },
     "done": true
   },

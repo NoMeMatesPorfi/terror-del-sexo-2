@@ -2333,6 +2333,7 @@
       "cooked_beef": "2025-08-25 03:40:34 +0000",
       "mutton": "2025-08-26 01:04:45 +0000",
       "bread": "2025-08-26 02:07:29 +0000",
+      "golden_carrot": "2025-08-26 02:09:58 +0000",
       "cooked_chicken": "2025-08-25 03:34:55 +0000",
       "cooked_salmon": "2025-08-26 01:47:30 +0000"
     },
@@ -2392,6 +2393,7 @@
       "minecraft:spider": "2025-08-26 02:06:26 +0000",
       "minecraft:cave_spider": "2025-08-26 01:48:30 +0000",
       "minecraft:stray": "2025-08-26 01:49:03 +0000",
+      "minecraft:vex": "2025-08-26 02:08:22 +0000",
       "minecraft:zombie": "2025-08-25 03:57:24 +0000"
     },
     "done": false
@@ -4405,6 +4407,12 @@
       "opened_chest": "2025-08-26 02:06:49 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-08-26 02:09:44 +0000"
+    },
+    "done": true
   },
   "lootr:1chest": {
     "criteria": {

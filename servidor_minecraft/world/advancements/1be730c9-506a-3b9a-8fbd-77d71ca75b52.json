@@ -2987,9 +2987,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/slime_block": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_slime_ball": "2025-08-25 04:19:12 +0000"
+      "has_furnace": "2025-08-25 04:14:47 +0000"
     },
     "done": true
   },
@@ -3005,9 +3005,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/smoker": {
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
-      "has_furnace": "2025-08-25 04:14:47 +0000"
+      "has_iron_pickaxe": "2025-08-25 04:15:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-08-25 04:19:12 +0000"
     },
     "done": true
   },
@@ -3023,9 +3029,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+  "lootr:root": {
     "criteria": {
-      "has_iron_pickaxe": "2025-08-25 04:15:46 +0000"
+      "always_true": "2025-08-26 02:18:18 +0000"
     },
     "done": true
   },
