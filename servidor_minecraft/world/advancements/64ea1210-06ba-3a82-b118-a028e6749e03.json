@@ -92,8 +92,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-08-25 03:58:51 +0000",
+      "minecraft:beach": "2025-08-26 01:41:18 +0000",
       "minecraft:river": "2025-08-25 03:07:54 +0000",
       "minecraft:snowy_plains": "2025-08-25 04:38:55 +0000",
+      "minecraft:stony_shore": "2025-08-26 01:40:51 +0000",
       "minecraft:dripstone_caves": "2025-08-25 04:07:44 +0000",
       "minecraft:snowy_taiga": "2025-08-25 04:38:12 +0000",
       "minecraft:swamp": "2025-08-25 04:27:52 +0000",
@@ -2330,7 +2332,9 @@
       "cooked_mutton": "2025-08-25 03:39:35 +0000",
       "cooked_beef": "2025-08-25 03:40:34 +0000",
       "mutton": "2025-08-26 01:04:45 +0000",
-      "cooked_chicken": "2025-08-25 03:34:55 +0000"
+      "bread": "2025-08-26 02:07:29 +0000",
+      "cooked_chicken": "2025-08-25 03:34:55 +0000",
+      "cooked_salmon": "2025-08-26 01:47:30 +0000"
     },
     "done": false
   },
@@ -2385,6 +2389,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-08-25 03:51:59 +0000",
+      "minecraft:spider": "2025-08-26 02:06:26 +0000",
+      "minecraft:cave_spider": "2025-08-26 01:48:30 +0000",
+      "minecraft:stray": "2025-08-26 01:49:03 +0000",
       "minecraft:zombie": "2025-08-25 03:57:24 +0000"
     },
     "done": false
@@ -3931,15 +3938,9 @@
     },
     "done": true
   },
-  "graveyard:graveyard/large_graveyard": {
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
-      "large_graveyard": "2025-08-26 01:24:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/spyglass": {
-    "criteria": {
-      "has_amethyst_shard": "2025-08-26 01:25:51 +0000"
+      "lightning_rod_with_villager_no_fire": "2025-08-26 01:06:09 +0000"
     },
     "done": true
   },
@@ -3949,15 +3950,69 @@
     },
     "done": true
   },
-  "chimes:recipes/decorations/amethyst_chimes": {
+  "minecraft:recipes/misc/book": {
     "criteria": {
-      "has_planks": "2025-08-26 01:25:51 +0000"
+      "has_paper": "2025-08-26 01:13:17 +0000"
     },
     "done": true
   },
-  "explorerscompass:explorers_compass": {
+  "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
-      "has_recipe": "2025-08-26 01:25:57 +0000"
+      "has_paper": "2025-08-26 01:13:17 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-08-26 01:14:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-08-26 01:14:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-08-26 01:23:03 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/large_graveyard": {
+    "criteria": {
+      "large_graveyard": "2025-08-26 01:24:28 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2025-08-26 01:25:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-08-26 01:25:30 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-08-26 01:25:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-08-26 01:25:51 +0000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/amethyst_chimes": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:25:51 +0000"
     },
     "done": true
   },
@@ -3973,39 +4028,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/book": {
+  "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
-      "has_paper": "2025-08-26 01:13:17 +0000"
+      "has_amethyst_shard": "2025-08-26 01:25:51 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/slicing/bone_meal_from_bone": {
+  "explorerscompass:explorers_compass": {
     "criteria": {
-      "has_bone": "2025-08-26 01:25:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2025-08-26 01:23:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2025-08-26 01:25:30 +0000"
+      "has_recipe": "2025-08-26 01:25:57 +0000"
     },
     "done": true
   },
   "explorerscompass:explorers_compass_cobweb": {
     "criteria": {
       "has_cobweb": "2025-08-26 01:25:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
-    "criteria": {
-      "lightning_rod_with_villager_no_fire": "2025-08-26 01:06:09 +0000"
     },
     "done": true
   },
@@ -4021,33 +4058,363 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/bone_broth": {
+  "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
-      "has_bone": "2025-08-26 01:25:30 +0000"
+      "has_enchanted_golden_apple": "2025-08-26 01:26:17 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_backpack": "2025-08-26 01:14:05 +0000"
+      "diamond_helmet": "2025-08-26 01:28:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/amethyst_block": {
+  "farmersdelight:recipes/food/horse_feed": {
     "criteria": {
-      "has_amethyst_shard": "2025-08-26 01:25:51 +0000"
+      "has_golden_carrot": "2025-08-26 01:29:35 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "vampirism:recipes/decorations/vampire/blood_pedestal": {
     "criteria": {
-      "has_paper": "2025-08-26 01:13:17 +0000"
+      "has_gold": "2025-08-26 01:30:41 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+  "minecraft:recipes/tools/golden_axe": {
     "criteria": {
-      "has_backpack": "2025-08-26 01:14:05 +0000"
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_clothing_crown": {
+    "criteria": {
+      "has_gold": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/vinemaker_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/altar_infusion": {
+    "criteria": {
+      "has_gold": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/gold_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-26 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-08-26 01:32:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-08-26 01:32:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-08-26 01:32:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-08-26 01:32:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-08-26 01:32:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/gold_reinforced_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_medium_pot": {
+    "criteria": {
+      "has_golden_medium_pot": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/gold_reinforced_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thick_pot": {
+    "criteria": {
+      "has_golden_thick_pot": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/gold_destructor_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thin_pot": {
+    "criteria": {
+      "has_golden_thin_pot": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/weapontable/crucifix_ultimate": {
+    "criteria": {
+      "gold": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_wide_pot": {
+    "criteria": {
+      "has_golden_wide_pot": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/gold_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-08-26 01:33:32 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/dark_iron": {
+    "criteria": {
+      "dark_iron": "2025-08-26 01:34:00 +0000"
+    },
+    "done": true
+  },
+  "vampirism:hunter/betrayal": {
+    "criteria": {
+      "kill": "2025-08-26 01:35:11 +0000"
+    },
+    "done": false
+  },
+  "vampirism:recipes/combat/vampire/vampire_clothing_hat": {
+    "criteria": {
+      "has_heart": "2025-08-26 01:35:14 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_clothing_boots": {
+    "criteria": {
+      "has_heart": "2025-08-26 01:35:14 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_clothing_legs": {
+    "criteria": {
+      "has_heart": "2025-08-26 01:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "vampiresdelight:recipes/food/hardtack": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/basket": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "vampiresdelight:recipes/cooking/dandelion_beer_bottle": {
+    "criteria": {
+      "has_any_ingredient": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/door_mat": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/straw_hat": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "vampirism:recipes/food/general/garlic_bread": {
+    "criteria": {
+      "has_bread": "2025-08-26 01:48:47 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
+    "criteria": {
+      "has_bread": "2025-08-26 01:48:47 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/sandwich": {
+    "criteria": {
+      "has_bread": "2025-08-26 01:48:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-08-26 02:07:10 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_metallurgy": {
+    "criteria": {
+      "dark_metallurgy_0": "2025-08-26 02:06:59 +0000"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-08-26 02:06:49 +0000"
+    },
+    "done": false
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-08-26 02:06:49 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-08-26 02:04:47 +0000"
     },
     "done": true
   },
