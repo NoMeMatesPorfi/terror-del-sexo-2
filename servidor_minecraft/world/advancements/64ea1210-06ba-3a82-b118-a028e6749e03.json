@@ -5089,6 +5089,12 @@
     },
     "done": true
   },
+  "lootr:25loot": {
+    "criteria": {
+      "loot_stat": "2025-08-27 02:56:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:44 +0000"

@@ -1751,6 +1751,7 @@
       "cooked_beef": "2025-08-27 02:33:56 +0000",
       "beef": "2025-08-25 04:08:58 +0000",
       "apple": "2025-08-25 03:51:31 +0000",
+      "pumpkin_pie": "2025-08-27 02:57:17 +0000",
       "golden_apple": "2025-08-25 04:12:55 +0000",
       "cooked_salmon": "2025-08-27 02:40:32 +0000"
     },
@@ -1813,6 +1814,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:hoglin": "2025-08-27 02:50:12 +0000",
+      "minecraft:wither_skeleton": "2025-08-27 02:53:59 +0000",
       "minecraft:zombie": "2025-08-25 03:54:55 +0000"
     },
     "done": false
@@ -3881,15 +3883,33 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-08-27 02:57:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2025-08-27 02:29:10 +0000"
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-08-27 02:57:03 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/birch_cutting_board": {
     "criteria": {
       "has_birch_planks": "2025-08-27 02:29:10 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/vegetable_sandwich": {
+    "criteria": {
+      "has_carrot": "2025-08-27 02:57:20 +0000"
     },
     "done": true
   },
@@ -4055,6 +4075,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-08-27 02:57:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-08-27 02:27:11 +0000"
@@ -4069,6 +4095,7 @@
   },
   "lootr:social": {
     "criteria": {
+      "opened_barrel": "2025-08-27 02:56:55 +0000",
       "opened_chest": "2025-08-27 02:46:51 +0000"
     },
     "done": false
@@ -4127,6 +4154,12 @@
     },
     "done": true
   },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2025-08-27 02:56:55 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_cabinetry": {
     "criteria": {
       "has_birch_planks": "2025-08-27 02:29:10 +0000"
@@ -4160,6 +4193,12 @@
   "farmersdelight:recipes/food/shepherds_pie_block": {
     "criteria": {
       "has_cooked_mutton": "2025-08-27 02:41:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2025-08-27 02:56:56 +0000"
     },
     "done": true
   },
@@ -4283,9 +4322,27 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-08-27 02:57:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-08-27 02:22:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-08-27 02:57:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-08-27 02:56:56 +0000"
     },
     "done": true
   },
@@ -4355,6 +4412,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-08-27 02:57:20 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/birch_dining_bench": {
     "criteria": {
       "has_birch_dining_bench": "2025-08-27 02:29:10 +0000"
@@ -4382,6 +4445,12 @@
   "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
       "has_salmon": "2025-08-27 02:39:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-08-27 02:56:34 +0000"
     },
     "done": true
   },
@@ -4424,6 +4493,18 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-08-27 02:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-08-27 02:57:20 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/pumpkin_seeds_from_pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2025-08-27 02:57:03 +0000"
     },
     "done": true
   },
@@ -4490,6 +4571,18 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-08-27 02:57:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-08-27 02:59:54 +0000"
     },
     "done": true
   },
