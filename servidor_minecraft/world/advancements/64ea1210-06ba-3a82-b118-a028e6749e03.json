@@ -4526,6 +4526,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-08-27 01:55:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_hay_block": "2025-08-27 01:10:12 +0000"
@@ -4550,6 +4556,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-08-27 01:57:57 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/hot_cocoa": {
     "criteria": {
       "has_any_ingredient": "2025-08-27 01:21:07 +0000"
@@ -4562,9 +4574,21 @@
     },
     "done": true
   },
+  "vampiresdelight:recipes/cooking/daisy_tea": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-08-27 01:57:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2025-08-27 01:34:06 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/white_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-08-27 01:57:57 +0000"
     },
     "done": true
   },
@@ -4589,6 +4613,12 @@
   "chimes:recipes/decorations/glass_bells": {
     "criteria": {
       "has_bottle": "2025-08-27 01:47:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-08-27 01:55:21 +0000"
     },
     "done": true
   },
@@ -4718,6 +4748,12 @@
     },
     "done": true
   },
+  "vinery:recipes/loam": {
+    "criteria": {
+      "has_clay_ball": "2025-08-27 01:55:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
       "has_lily_of_the_valley": "2025-08-27 01:40:33 +0000"
@@ -4787,6 +4823,12 @@
   "vampiresdelight:recipes/food/snow_white_ice_cream": {
     "criteria": {
       "has_holy_water": "2025-08-27 01:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-08-27 01:57:57 +0000"
     },
     "done": true
   },
