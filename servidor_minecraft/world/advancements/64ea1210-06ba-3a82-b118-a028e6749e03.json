@@ -4391,15 +4391,9 @@
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
+  "lootr:root": {
     "criteria": {
-      "deflected_projectile": "2025-08-26 02:07:10 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:dark_metallurgy": {
-    "criteria": {
-      "dark_metallurgy_0": "2025-08-26 02:06:59 +0000"
+      "always_true": "2025-08-26 02:04:47 +0000"
     },
     "done": true
   },
@@ -4409,27 +4403,33 @@
     },
     "done": false
   },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2025-08-26 02:09:44 +0000"
-    },
-    "done": true
-  },
   "lootr:1chest": {
     "criteria": {
       "opened_chest": "2025-08-26 02:06:49 +0000"
     },
     "done": true
   },
-  "bakery:recipes/oat_seeds": {
+  "born_in_chaos_v1:dark_metallurgy": {
     "criteria": {
-      "has_wheat_seeds": "2025-08-26 02:41:37 +0000"
+      "dark_metallurgy_0": "2025-08-26 02:06:59 +0000"
     },
     "done": true
   },
-  "lootr:root": {
+  "minecraft:story/deflect_arrow": {
     "criteria": {
-      "always_true": "2025-08-26 02:04:47 +0000"
+      "deflected_projectile": "2025-08-26 02:07:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-08-26 02:09:44 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/oat_seeds": {
+    "criteria": {
+      "has_wheat_seeds": "2025-08-26 02:41:37 +0000"
     },
     "done": true
   },
