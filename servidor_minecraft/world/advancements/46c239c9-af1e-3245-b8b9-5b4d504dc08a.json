@@ -51,7 +51,8 @@
     "criteria": {
       "minecraft:taiga": "2025-08-25 03:58:00 +0000",
       "minecraft:river": "2025-08-25 03:49:40 +0000",
-      "minecraft:forest": "2025-08-25 03:42:26 +0000"
+      "minecraft:forest": "2025-08-25 03:42:26 +0000",
+      "minecraft:plains": "2025-08-27 02:46:15 +0000"
     },
     "done": false
   },
@@ -1745,6 +1746,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-08-27 02:18:18 +0000",
+      "cooked_mutton": "2025-08-27 02:50:28 +0000",
       "sweet_berries": "2025-08-25 04:12:38 +0000",
       "cooked_beef": "2025-08-27 02:33:56 +0000",
       "beef": "2025-08-25 04:08:58 +0000",
@@ -1810,6 +1812,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:hoglin": "2025-08-27 02:50:12 +0000",
       "minecraft:zombie": "2025-08-25 03:54:55 +0000"
     },
     "done": false
@@ -3944,9 +3947,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-08-27 02:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-08-27 02:46:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2025-08-27 02:22:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-08-27 02:47:33 +0000"
     },
     "done": true
   },
@@ -4045,6 +4066,12 @@
       "has_cobbled_deepslate": "2025-08-27 02:22:07 +0000"
     },
     "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-08-27 02:46:51 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
@@ -4166,6 +4193,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2025-08-27 02:46:58 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/decorations/vampire/fog_diffuser": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:04 +0000"
@@ -4175,6 +4208,12 @@
   "farmersdelight:recipes/combat/diamond_knife": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:04 +0000"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-08-27 02:46:51 +0000"
     },
     "done": true
   },
@@ -4208,6 +4247,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-08-27 02:47:03 +0000"
+    },
+    "done": true
+  },
   "vinery:recipes/birch_wine_rack_big": {
     "criteria": {
       "has_birch_planks": "2025-08-27 02:29:10 +0000"
@@ -4217,6 +4262,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-08-27 02:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-08-27 02:47:33 +0000"
     },
     "done": true
   },
@@ -4271,6 +4322,12 @@
   "handcrafted:recipes/misc/birch_pillar_trim": {
     "criteria": {
       "has_birch_pillar_trim": "2025-08-27 02:29:10 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2025-08-27 02:46:15 +0000"
     },
     "done": true
   },
