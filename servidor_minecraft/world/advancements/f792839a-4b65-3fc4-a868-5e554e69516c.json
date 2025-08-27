@@ -3757,7 +3757,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-08-26 02:31:27 +0000",
+      "minecraft:hoglin": "2025-08-27 02:39:59 +0000",
       "minecraft:spider": "2025-08-25 04:37:31 +0000",
+      "minecraft:wither_skeleton": "2025-08-27 02:41:24 +0000",
       "minecraft:cave_spider": "2025-08-26 02:06:12 +0000",
       "minecraft:stray": "2025-08-26 02:08:12 +0000",
       "minecraft:zombie": "2025-08-27 01:33:38 +0000",
@@ -5056,6 +5058,12 @@
     },
     "done": true
   },
+  "scguns:main/blackpowder/blunderbuss": {
+    "criteria": {
+      "musket": "2025-08-27 02:31:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:07 +0000"
@@ -5200,6 +5208,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2025-08-27 02:36:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-08-27 02:30:20 +0000"
@@ -5263,6 +5277,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-08-27 02:40:28 +0000"
     },
     "done": true
   },

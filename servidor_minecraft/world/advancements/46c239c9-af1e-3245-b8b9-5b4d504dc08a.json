@@ -1746,9 +1746,11 @@
     "criteria": {
       "cooked_porkchop": "2025-08-27 02:18:18 +0000",
       "sweet_berries": "2025-08-25 04:12:38 +0000",
+      "cooked_beef": "2025-08-27 02:33:56 +0000",
       "beef": "2025-08-25 04:08:58 +0000",
       "apple": "2025-08-25 03:51:31 +0000",
-      "golden_apple": "2025-08-25 04:12:55 +0000"
+      "golden_apple": "2025-08-25 04:12:55 +0000",
+      "cooked_salmon": "2025-08-27 02:40:32 +0000"
     },
     "done": false
   },
@@ -3852,6 +3854,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2025-08-27 02:39:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-08-27 02:22:07 +0000"
@@ -3861,6 +3869,12 @@
   "refurbished_furniture:recipes/misc/constructing/birch_crate": {
     "criteria": {
       "has_birch_planks": "2025-08-27 02:29:10 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/copper_blueprint": {
+    "criteria": {
+      "copper_blueprint": "2025-08-27 02:31:42 +0000"
     },
     "done": true
   },
@@ -4038,6 +4052,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-08-27 02:41:20 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/birch_cupboard": {
     "criteria": {
       "has_birch_cupboard": "2025-08-27 02:29:10 +0000"
@@ -4065,6 +4085,12 @@
   "handcrafted:recipes/misc/birch_side_table": {
     "criteria": {
       "has_birch_side_table": "2025-08-27 02:29:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-08-27 02:39:45 +0000"
     },
     "done": true
   },
@@ -4101,6 +4127,12 @@
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-08-27 02:22:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-08-27 02:41:20 +0000"
     },
     "done": true
   },
@@ -4146,9 +4178,21 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2025-08-27 02:41:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-08-27 02:39:45 +0000"
     },
     "done": true
   },
@@ -4173,6 +4217,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-08-27 02:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-08-27 02:39:45 +0000"
     },
     "done": true
   },
@@ -4272,6 +4322,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-08-27 02:39:45 +0000"
+    },
+    "done": true
+  },
   "vampirism:recipes/decorations/hunter/garlic_diffuser_normal": {
     "criteria": {
       "has_diamond": "2025-08-27 02:30:04 +0000"
@@ -4347,6 +4403,12 @@
   "handcrafted:recipes/misc/birch_drawer": {
     "criteria": {
       "has_birch_drawer": "2025-08-27 02:29:10 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-08-27 02:41:20 +0000"
     },
     "done": true
   },
