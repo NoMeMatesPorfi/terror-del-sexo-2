@@ -4697,9 +4697,21 @@
     },
     "done": true
   },
+  "man:thetear": {
+    "criteria": {
+      "thetear_0": "2025-08-27 01:15:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mud_bricks": {
     "criteria": {
       "has_packed_mud": "2025-08-27 01:06:52 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/phantom_trophy": {
+    "criteria": {
+      "has_phantom_trophy": "2025-08-27 01:15:43 +0000"
     },
     "done": true
   },
