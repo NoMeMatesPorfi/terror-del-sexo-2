@@ -60,6 +60,7 @@
       "minecraft:snowy_taiga": "2025-08-25 03:45:18 +0000",
       "minecraft:cold_ocean": "2025-08-27 02:52:00 +0000",
       "minecraft:forest": "2025-08-25 03:14:54 +0000",
+      "minecraft:lush_caves": "2025-08-28 00:51:10 +0000",
       "minecraft:meadow": "2025-08-25 04:05:32 +0000",
       "minecraft:plains": "2025-08-25 03:21:34 +0000"
     },
@@ -5463,9 +5464,39 @@
     },
     "done": true
   },
+  "scguns:main/sulfur_chunk": {
+    "criteria": {
+      "sulfur_chunk": "2025-08-28 00:49:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-08-28 00:51:09 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:deceived_hopes": {
+    "criteria": {
+      "deceived_hopes_0": "2025-08-28 00:54:56 +0000"
+    },
+    "done": true
+  },
   "intensehorror:survived_the_nightmare": {
     "criteria": {
       "survived_the_nightmare": "2025-08-28 00:46:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-08-28 00:51:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-08-28 00:51:09 +0000"
     },
     "done": true
   },

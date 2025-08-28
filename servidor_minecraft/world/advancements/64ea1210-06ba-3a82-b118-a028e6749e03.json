@@ -102,6 +102,7 @@
       "minecraft:snowy_taiga": "2025-08-25 04:38:12 +0000",
       "minecraft:swamp": "2025-08-25 04:27:52 +0000",
       "minecraft:forest": "2025-08-24 21:48:30 +0000",
+      "minecraft:lush_caves": "2025-08-28 00:51:25 +0000",
       "minecraft:old_growth_birch_forest": "2025-08-27 03:31:04 +0000",
       "minecraft:meadow": "2025-08-25 03:10:58 +0000",
       "minecraft:plains": "2025-08-25 03:08:57 +0000"
@@ -5528,6 +5529,36 @@
   "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2025-08-27 04:09:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-08-28 00:56:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-08-28 00:56:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-08-28 00:56:15 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:double_trouble": {
+    "criteria": {
+      "double_trouble_0": "2025-08-28 00:50:09 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:deceived_hopes": {
+    "criteria": {
+      "deceived_hopes_0": "2025-08-28 00:54:28 +0000"
     },
     "done": true
   },
